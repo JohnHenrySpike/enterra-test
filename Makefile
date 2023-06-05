@@ -15,7 +15,7 @@ console-php: ## Run php bash
 
 docs: ## Update openapi docs
 	$(DOCKER_EXEC) php-fpm ./yii docs
-	
+
 unit-test: ## Run PHPUnit tests
 	$(DOCKER_EXEC) php-fpm ./vendor/bin/phpunit --testdox tests
 

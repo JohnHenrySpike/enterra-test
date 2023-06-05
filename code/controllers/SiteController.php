@@ -60,13 +60,6 @@ class SiteController extends Controller
         ];
     }
 
-    #[OA\Get(
-        path: '/',
-        responses: [
-            new OA\Response(response: 200, description: 'OK')
-        ]
-    )]
-
     public function actionIndex()
     {
         $this->redirect(['/docs']);

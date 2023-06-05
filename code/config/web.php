@@ -49,8 +49,17 @@ $config = [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
+            'enableStrictParsing' => true,
             'rules' => [
-                'gii' => 'gii'
+                'GET chef' => 'chef',
+                'GET chef/top' => 'chef/top',
+                'POST chef' => 'chef/create',
+                'GET dishes' => 'dishes',
+                'POST dishes' => 'dishes/create',
+                'GET orders' => 'orders',
+                'GET orders/<id>' => 'orders/view',
+                'POST orders' => 'orders/create',
+                'POST orders/append' => 'orders/append',
             ],
         ],
         
