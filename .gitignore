@@ -1,0 +1,4 @@
+.env
+.vscode
+code/vendor
+code/public/swagger.json
