@@ -1,7 +1,10 @@
 enterra-test
 =================
 
-RestAPI test application
+RestAPI test application without frontend
+
+- yii2 framework (basic)
+- swagger api docs
 
 Requriments: 
  - Linux
